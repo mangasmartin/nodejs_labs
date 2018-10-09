@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+audio, video, figure, svg, canvas, img {
+  display: block;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#messages {
+  border-bottom: 1px solid #aaa;
+  width: 100%;
+  height: calc(100% - 38px);
+  overflow-y: auto;
+  font-family: Ubuntu;
+  font-size: 18px;
+}
+
+#messages b {
+  margin-right: 5px;
+}
+
+#form {
+  display: flex;
+  align-content: space-between;
+}
+
+#nick {
+  padding: 10px;
+  font-family: Ubuntu;
+}
+
+#msg {
+  width: 100%;
+  height: 38px;
+  font-size: 18px;
+  padding: 10px;
+  border: 0;
+  box-shadow: inset 0px 0px 10px #000;
+}
+
+#send {
+  background: url(send.png) no-repeat center center transparent;
+  background-size: 80% 80%;
+  border: 0;
+  width: 38px;
+  height: 38px;
+}
+
+#send:hover {
+  background-color: blue;
+}
