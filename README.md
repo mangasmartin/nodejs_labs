@@ -1,2 +1,2 @@
 # nodejs_labs
-Some experiments amb boliterplates with nodejs
+Some experiments amb boilerplates with nodejs
